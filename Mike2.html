@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mike page 2</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<style>
+		section.box{
+			padding:25px 45px;
+			background: url("images/favorites.png");
+		}
+
+		section.box p, section.box li{
+			font-family: 'Alata', sans-serif;
+		}
+
+		section.box h1{
+			color: #ff0000;
+			text-decoration: underline;
+			background: black;
+			text-align: center;
+			padding:5px;
+			font-family: 'Architects Daughter', cursive;			
+		}
+
+		iframe{
+			border: 5px solid grey;
+			padding: 5px;
+			margin: 5px;
+			width: 500px;
+			height: 600px;
+		}
+
+		table, th, td{
+			border: 1px solid black;
+			text-align: center;
+			font-family: 'Architects Daughter', cursive;
+		}
+
+		th{
+			font-size: 24px
+			height:50px;
+		}
+
+		.menu{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			border-bottom: 5px solid #434A5C
+			border-top: 5px solid #434A5C;
+			background: #51925a;
+			font-family: 'Open Sans';
+			font-size: 25px;
+			font-weight: bold;
+			text-transform: uppercase;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+
+		.menu li{
+			display: inline-block;
+			padding: 20px 35px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<ul class="menu">
+		<li> <a href="Mike.html#about"> About me </a> </li>
+		<li> <a href="Mike.html#favorites">Favorites</a> </li>
+		<li> <a href="#contactme"> Contact Me</a></li>
+		<li> <a href="#videogames"> Video Games</a></li>
+		<li> <a href="https://www.google.com/" target="_blank">Search</a> </li>
+	</ul>
+
+
+	<section id="contactme" class= "contactme box">
+		<h1> Contact Me! </h1>
+		<p> I would love to hear from you! Contact me with your questions or comments. </p>
+		<ul>
+			<li>Email: michael@intellibricks.org</li>
+			<li>Phone: 916-577-5115</li>
+		</ul>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScR0Dd0g761a0xqCB8ojwXgxyqjvt0vjbDspdhRZc7-JPxo_Q/viewform?embedded=true" width="640" height="728" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</section>
+	
+	<section id="videogames" class="videogames box">
+	<h1>Video Games I Like!</h1>
+	<p>Check out the games I like to play.</p>
+
+	<table style="width: 100%">
+		<tr>
+			<th>Video Game</th>
+			<th>Picture</th>
+			<th>Link</th>
+		</tr>
+		<tr>
+			<td>Minecraft</td>
+			<td><img src="images/Minecraft.jpg"></td>
+			<td><a href="https://www.minecraft.net/en-us"> Click Here for Minecraft</a></td>
+		</tr>
+		<tr>
+			<td>Among Us</td>
+			<td><img src="images/AmongUs.jpg"></td>
+			<td><a href="https://www.innersloth.com/gameAmongUs.php">Click Here for Among Us</a></td>
+		</tr>
+		<tr>
+			<td>League of Legends</td>
+			<td><img src="images/League of Legends.jpg"></td>
+			<td><a href="https://na.leagueoflegends.com/en-us/">Click Here for League of Legends</a></td>
+		</tr>
+	</table>
+
+	</section>
+	
+</body>
+</html>
